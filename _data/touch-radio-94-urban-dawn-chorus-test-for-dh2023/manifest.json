@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://stellawisdom.github.io/stella_test1/touch-radio-94-urban-dawn-chorus-test-for-dh2023/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Touch Radio 94 | Urban Dawn Chorus - test for dh2023" ] },
+    "homepage": [
+      {
+        "id": "https://touchradio.org.uk/touch_radio_94_urban_dawn_chorus.html",
+        "type": "Text",
+        "label": { "en": [ "Touch Radio 94 | Urban Dawn Chorus - test for dh2023" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://touchradio.org.uk/",
+        "type": "Agent",
+        "label": { "en": [ "TouchRadio" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://stellawisdom.github.io/stella_test1/touch-radio-94-urban-dawn-chorus-test-for-dh2023/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 49.46,
+        "items": [
+          {
+            "id": "https://stellawisdom.github.io/stella_test1/touch-radio-94-urban-dawn-chorus-test-for-dh2023/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://stellawisdom.github.io/stella_test1/touch-radio-94-urban-dawn-chorus-test-for-dh2023/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.touchshop.org/touchradio/Radio94.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 49.46
+                },
+                "target": "https://stellawisdom.github.io/stella_test1/touch-radio-94-urban-dawn-chorus-test-for-dh2023/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
